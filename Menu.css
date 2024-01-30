@@ -1,13 +1,66 @@
+body {
+    margin: 0;
+    background-color: brown;
+    background-image: url(Fondo.png);
+}
+
 h1 {
     text-align: center;
     background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-ul {
-    
+ul.Menu_Izquierda {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 15%;
+    background-color: black;
+    position: fixed;
+    height: 95%;
+    overflow: auto;
 }
 
-body {
-    background-image: url("Fondo.png") ;
+ul.Menu_Izquierda li{
+    display: block;
+    color: white;
+    padding: 8px;
+}
+
+ul.Menu_Izquierda li a:hover:not(.active) {
+background-color: black;
+color: red;
+}
+
+div.content {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+
+  @media screen and (max-width: 900px) {
+    ul.sidenav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+
+    ul.sidenav li a {
+        float: left;
+        padding: 15px;
+      }
+      
+      div.content {margin-left: 0;}
+    }
+
+    @media screen and (max-width: 400px) {
+        ul.sidenav li a {
+          text-align: center;
+          float: none;
+        }
+      }
+p {
+text-align: right;
+color: white;
+text-size-adjust: 1;
 }
