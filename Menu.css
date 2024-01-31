@@ -1,23 +1,27 @@
 body {
     margin: 0;
     background-color: brown;
-    background-image: url(Fondo.png);
+    background-image: url(Images/Fondo.png);
+    background-repeat:no-repeat;
+    background-position: 0px -80px;
+    background-size: 2000px 900px;
 }
 
 h1 {
     text-align: center;
     background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 ul.Menu_Izquierda {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
-    width: 15%;
+    width: 100px;
     background-color: black;
     position: fixed;
-    height: 95%;
+    height: 1000px;
     overflow: auto;
 }
 
@@ -32,35 +36,53 @@ background-color: black;
 color: red;
 }
 
-div.content {
+div.Menu_Izquierda {
     margin-left: 25%;
     padding: 1px 16px;
-    height: 1000px;
+    height: 100px;
+    font-size: 10px;
+    text-align: center;
   }
 
   @media screen and (max-width: 900px) {
-    ul.sidenav {
+    ul.Menu_Izquierda {
       width: 100%;
       height: auto;
       position: relative;
     }
 
-    ul.sidenav li a {
+    ul.Menu_Izquierda li a {
         float: left;
         padding: 15px;
       }
       
-      div.content {margin-left: 0;}
+      div.Menu_Izquierda {margin-left: 0;}
     }
 
     @media screen and (max-width: 400px) {
-        ul.sidenav li a {
+        ul.Menu_Izquierda li a {
           text-align: center;
           float: none;
         }
       }
-p {
-text-align: right;
-color: white;
-text-size-adjust: 1;
-}
+
+
+  a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+
+  .Parrafo1 {
+  margin: auto;
+  width: 60%;
+  border: 3px solid white;
+  padding: 10px;
+  color: white;
+  }
+
+  form{
+    text-align: center;
+    bottom: auto;
+    }
