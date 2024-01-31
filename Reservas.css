@@ -1,0 +1,42 @@
+.wrapper{ text-align: center;
+    text-decoration: underline;
+    background-color: white;
+    height:100px ;
+    display: grid;
+
+}
+body{
+    background-image: url(images/Fondo.png);
+    background-repeat: no-repeat;
+    background-position: 10px 160px;
+    background-size: 1900px 800px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+        }
+li{
+    float:left;
+
+            }
+li a{
+    color: white;
+    display: inline-block;
+    background-color: black;
+    width: 550px;
+    padding: 10px 13px;
+    text-decoration: none;
+    position: center;
+    line-height: 35px;
+    text-align: center;
+
+
+}
+li a:hover{
+    background-color: red;
+
+}
