@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    background-color: brown;
+    background-image: url(Images/Fondo.png);
+    background-repeat:no-repeat;
+    background-position: 0px -80px;
+    background-size: 2000px 900px;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+ul.Menu_Izquierda {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+    background-color: black;
+    position: fixed;
+    height: 1000px;
+    overflow: auto;
+}
+
+ul.Menu_Izquierda li{
+    display: block;
+    color: white;
+    padding: 8px;
+}
+
+ul.Menu_Izquierda li a:hover:not(.active) {
+background-color: black;
+color: red;
+}
+
+div.Menu_Izquierda {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 100px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 900px) {
+    ul.Menu_Izquierda {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+
+    ul.Menu_Izquierda li a {
+        float: left;
+        padding: 15px;
+      }
+      
+      div.Menu_Izquierda {margin-left: 0;}
+    }
+
+    @media screen and (max-width: 400px) {
+        ul.Menu_Izquierda li a {
+          text-align: center;
+          float: none;
+        }
+      }
+
+
+  a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+
+  .Parrafo1 {
+  margin: auto;
+  width: 60%;
+  border: 3px solid white;
+  padding: 10px;
+  color: white;
+  }
+
+  form{
+    text-align: center;
+    bottom: auto;
+    }
