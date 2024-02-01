@@ -1,0 +1,8 @@
+body{
+        margin: 0;
+        background-color: brown;
+        background-image: url(Images/Fondo.png);
+        background-repeat:no-repeat;
+        background-position: 0px -80px;
+        background-size: 2000px 900px;
+}
