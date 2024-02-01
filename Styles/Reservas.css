@@ -6,9 +6,9 @@
 
 }
 body{
-    background-image: url(images/Fondo.png);
+    background-image: url(Images/Fondo.png);
     background-repeat: no-repeat;
-    background-position: 10px 160px;
+    background-position: 7px 150px;
     background-size: 1900px 800px;
 }
 
@@ -38,5 +38,16 @@ li a{
 }
 li a:hover{
     background-color: red;
-
+}
+.form1{
+    font-size: 20px;
+    position: relative;
+    left: 30px;
+    top: 25px;
+}
+input{
+    position: relative;
+    left: 120px;
+    top: 25px;
+    
 }
