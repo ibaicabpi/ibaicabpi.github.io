@@ -41,11 +41,11 @@ ul li{
     border-color: solid white 1px;
 }
 
-ul li a:hover:not(.active) {
-background-color: black;
-color: red;
-border-color: 10px solid white;
-}
+  ul li a:hover {
+  background-color: black;
+  color: red;
+  border-color: 10px solid white;
+  }
 
 div {
     margin-left: 25%;
@@ -67,7 +67,7 @@ div {
     }
 
     ul li a {
-        float: left;
+        float: none;
         padding: 15px;
         border: 10px;
         color: white;
@@ -80,8 +80,6 @@ div {
     @media screen and (max-width: 400px) {
         ul li a {
           text-align: center;
-          float: none;
-          border: 10px;
           color: white;
         }
       }
@@ -94,6 +92,7 @@ li a:hover{
     background-color: red;
 }
 
+<<<<<<< HEAD
 a:visited{
     color: white;
 }
@@ -122,6 +121,14 @@ div.galeria img {
 
 
 .Parrafo1 {
+=======
+  li a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .Parrafo1 {
+>>>>>>> cce583b268b07f1b8c5932983a260f9cbfd42725
   margin: auto;
   width: 60%;
   border: 3px solid white;
