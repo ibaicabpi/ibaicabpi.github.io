@@ -41,11 +41,11 @@ ul li{
     border-color: solid white 1px;
 }
 
-ul li a:hover:not(.active) {
-background-color: black;
-color: red;
-border-color: 10px solid white;
-}
+  ul li a:hover {
+  background-color: black;
+  color: red;
+  border-color: 10px solid white;
+  }
 
 div {
     margin-left: 25%;
@@ -67,7 +67,7 @@ div {
     }
 
     ul li a {
-        float: left;
+        float: none;
         padding: 15px;
         border: 10px;
         color: white;
@@ -80,8 +80,6 @@ div {
     @media screen and (max-width: 400px) {
         ul li a {
           text-align: center;
-          float: none;
-          border: 10px;
           color: white;
         }
       }
@@ -94,18 +92,10 @@ div {
         background-color: red;
       }
 
-  a:visited{
+  li a{
     color: white;
-  }
-
-
-  a:link{
-    color: white;
-    background-color: transparent;
     text-decoration: none;
-    
   }
-
 
   .Parrafo1 {
   margin: auto;
