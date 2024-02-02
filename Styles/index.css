@@ -86,38 +86,49 @@ div {
         }
       }
 
-      li {
-        font-size: large;
-      }
+li {
+    font-size: large;
+}
 
-      li a:hover{
-        background-color: red;
-      }
+li a:hover{
+    background-color: red;
+}
 
-  a:visited{
+a:visited{
     color: white;
-  }
+}
 
 
-  a:link{
+a:link{
     color: white;
     background-color: transparent;
     text-decoration: none;
     
-  }
+}
+
+div.galeria {
+  margin: 5px;
+  border: 1PX solid white;
+  float: right;
+  width: 136px;
+
+}
+
+div.galeria img {
+  width: 100px;
+  margin-right: 136px;
+}
 
 
-  .Parrafo1 {
+
+.Parrafo1 {
   margin: auto;
   width: 60%;
   border: 3px solid white;
   padding: 10px;
   color: white;
-  }
+}
 
-  form{
-    text-align: center;
-    bottom: auto;
-    }
+
 
   
