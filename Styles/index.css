@@ -1,11 +1,3 @@
-.wrapper{ text-align: center;
-  text-decoration: underline;
-  background-color: white;
-  height:100px ;
-  display: grid;
-
-}
-
 body {
     margin: 0;
     background-image: url(Images/Fondo.png);
@@ -30,22 +22,23 @@ ul {
   overflow: hidden;
 
       }
+  ul li a{
+    font-size: large;
+    color: white;
+    text-decoration: none;
+  }
 
 
 ul li{
-    display: inline-block;
     display: block;
     width: 550px;
     padding: 10px 13px;
     border: 10px;
-    border-color: solid white 1px;
+    color: solid white 1px;
 }
-
-  ul li a:hover {
-  background-color: black;
-  color: red;
-  border-color: 10px solid white;
-  }
+  li a:hover{
+    background-color: red;
+}
 
 div {
     margin-left: 25%;
@@ -58,69 +51,27 @@ div {
   }
 
   @media screen and (max-width: 900px) {
-    ul {
-      width: 100%;
-      height: auto;
-      position: relative;
-      border: 10px;
-      color: white;
-    }
-
-    ul li a {
-        float: none;
-        padding: 15px;
-        border: 10px;
-        color: white;
-      }
       
       div {margin-left: 0;}
       
     }
 
-    @media screen and (max-width: 400px) {
-        ul li a {
-          text-align: center;
-          color: white;
-        }
-      }
-
-li {
-    font-size: large;
-}
-
-li a:hover{
-    background-color: red;
-}
-
-a:visited{
-    color: white;
-}
 
 
-a:link{
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-    
-}
-
-div.galeria {
+.imagen1 {
+  position: relative;
+  right: 1020px;
+  top: -20px;
   margin: 5px;
-  border: 1PX solid white;
   float: right;
-  width: 136px;
 
 }
-
-div.galeria img {
-  width: 100px;
-  margin-right: 136px;
+.imagen2{
+ position: relative;
+ left: 280px;
+ top: 235px;
 }
 
-  li a{
-    color: white;
-    text-decoration: none;
-  }
 
   .Parrafo1 {
   margin: auto;
