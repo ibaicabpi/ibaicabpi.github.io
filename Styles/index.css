@@ -92,7 +92,6 @@ li a:hover{
     background-color: red;
 }
 
-<<<<<<< HEAD
 a:visited{
     color: white;
 }
@@ -118,17 +117,12 @@ div.galeria img {
   margin-right: 136px;
 }
 
-
-
-.Parrafo1 {
-=======
   li a{
     color: white;
     text-decoration: none;
   }
 
   .Parrafo1 {
->>>>>>> cce583b268b07f1b8c5932983a260f9cbfd42725
   margin: auto;
   width: 60%;
   border: 3px solid white;

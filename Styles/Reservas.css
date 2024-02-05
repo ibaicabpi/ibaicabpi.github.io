@@ -9,8 +9,8 @@
 body{
     background-image: url(Images/Fondo.png);
     background-repeat: no-repeat;
-    background-position: 1px 124px;
-    background-size: 1900px 1000px;
+    background-position: 4px 124px;
+    background-size: 2200px 1000px;
 }
 
 ul{
@@ -41,15 +41,26 @@ ul{
 li a:hover{
     background-color: red;
 }
-.form1{
-    font-size: 20px;
-    position: relative;
-    left: 30px;
-    top: 25px;
-}
 input{
     position: relative;
-    left: 120px;
-    top: 25px;
-    
+    top: 70px;
+    left: 140px;
 }
+label{
+    position: relative;
+    top: 70px;
+    left: 40px;
+}
+select{
+    position: relative;
+    top: 70px;
+    left: 120px;
+}
+p.texto1{
+    border: 1px solid white;
+    position: relative;
+    left: 300px;
+
+}
+
+
