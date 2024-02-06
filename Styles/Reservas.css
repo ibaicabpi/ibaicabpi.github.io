@@ -54,27 +54,19 @@ select{
     top: 70px;
     left: 120px;
 }
-<<<<<<< HEAD
 p.texto1{
     border: 3px solid black;
     color: black;
-=======
+}
 .texto1{
     border: 3px solid white;
-    color: white;
->>>>>>> da6dfa484006409c9c921cbaf2be508600831697
+    color: black;
     width: 600px;
     position: relative;
     padding: 10px;
+    font-size: large;
     left: 650px;
     top: -170px;
-<<<<<<< HEAD
     background-color: white;
-
-=======
-}
-.texto1{
-    
->>>>>>> da6dfa484006409c9c921cbaf2be508600831697
 }
 
