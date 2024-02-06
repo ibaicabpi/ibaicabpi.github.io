@@ -1,6 +1,3 @@
-* {
-    box-sizing: border-box;
-}
 /*
 .row::after {
     content: "";
@@ -20,7 +17,7 @@ body{
     background-image: url(Images/Fondo.png);
     background-repeat: no-repeat;
     background-position: 0px -80px;
-    background-size: 2000px 900px;
+    background-size: 2000px 1200px;
 }
 h1 { 
     margin: auto;
@@ -37,23 +34,18 @@ ul{
     overflow: hidden;
     background-color: black;
 
-        }
+ }
 li{
     float:left;
 
             }
 li a{
-    color: white;
-    display: inline-block;
-    width: 596px;
+    display: block;
     padding: 10px 13px;
-    text-decoration: none;
-    position: relative;
+    width: 598px;
     text-align: center;
-}
-ul{
-    position: relative;
-    right: 7px;;
+    color: white;
+    text-decoration: none;
 }
 li a:hover{
     background-color: red;
@@ -74,11 +66,11 @@ select{
     left: 120px;
 }
 p.texto1{
-    border: 1px solid white;
+    border: 3px solid white;
+    color: white;
     width: 600px;
-    color: black;
-    background-color: white;
     position: relative;
+    padding: 10px;
     left: 850px;
     top: -170px;
 
