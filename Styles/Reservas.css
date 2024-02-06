@@ -66,13 +66,14 @@ select{
     left: 120px;
 }
 p.texto1{
-    border: 3px solid white;
-    color: white;
+    border: 3px solid black;
+    color: black;
     width: 600px;
     position: relative;
     padding: 10px;
-    left: 850px;
+    left: 650px;
     top: -170px;
+    background-color: white;
 
 }
 

@@ -52,24 +52,30 @@ div {
 .imagen1 {
   position: relative;
   right: 1330px;
-  top: 140px;
+  left: -250px;
+  top: 0px;
   margin: 5px;
   float: right;
 
 }
 .imagen2{
  position: relative;
- left: 350px;
- top: 380px;
+ right: 1300px;
+ left: -728px;
+ top: 0px;
+ margin: 5px;
+ float: right;
+ 
 }
 
 
   .Parrafo1 {
   margin: auto;
   width: 60%;
-  border: 3px solid white;
+  border: 3px solid black;
   padding: 10px;
-  color: white;
+  color: black;
+  background-color: white;
 }
 
 
