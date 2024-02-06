@@ -1,17 +1,6 @@
-/*
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  [class*="col-"] {
-    float: left;
-    padding: 15px;
-  }
-  
-.col-1{width: 25%;}*/
-
+*{
+    box-sizing: border-box;
+}
 body{
     margin:  0;
     background-image: url(Images/Fondo.png);
@@ -42,7 +31,7 @@ li{
 li a{
     display: block;
     padding: 10px 13px;
-    width: 598px;
+    width: 100px;
     text-align: center;
     color: white;
     text-decoration: none;
@@ -65,7 +54,7 @@ select{
     top: 70px;
     left: 120px;
 }
-p.texto1{
+.texto1{
     border: 3px solid white;
     color: white;
     width: 600px;
@@ -73,7 +62,8 @@ p.texto1{
     padding: 10px;
     left: 850px;
     top: -170px;
-
 }
-
+.texto1{
+    
+}
 
