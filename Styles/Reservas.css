@@ -1,20 +1,9 @@
 *{
     box-sizing: border-box;
 }
-div.texto1{
-    padding: 20px;
-}
-@media screen and (min-width: 400px) {
-    div.texto1 {
-      font-size: 1vw;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    div.texto1 {
-      font-size: 3vw;
-    }
-}
+/*
+Estos css son del fondo de la pagina y el titulo
+*/
 body{
     margin:  0;
     background-image: url(Images/Fondo.png);
@@ -29,7 +18,9 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-
+/*
+Estos cuatro css son del encabezado de la pagina
+*/
 ul{
     list-style-type: none;
     margin: 0px;
@@ -55,6 +46,9 @@ li a{
 li a:hover{
     background-color: red;
 }
+/*
+Estos tres css son del formulario
+*/
 input{
     position: relative;
     top: 50px;
@@ -74,6 +68,9 @@ select{
     top: 70px;
     left: 70px;
 }
+/*
+Por ultimo estos pertenecen al texto principal
+*/
 
 p.texto1{
     border: 3px solid black;
@@ -87,8 +84,39 @@ p.texto1{
     padding: 10px;
     font-size: large;
     left: 15px;
-    top: 150px;
+    top: 100px;
     background-color: white;
     
+}
+/*
+Estos css son los de la tabla de información.
+*/
+div.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 30px;
+
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    position: relative;
+    left: 560px;
+    top: -550px;
+  }
+  tr{
+    background-color: white;
+  }
+  td{
+    background-color: grey;
+  }
+
+  
+  @media screen and (max-width: 600px) {
+    div.texto1 {
+      font-size: 3vw;
+    }
 }
 

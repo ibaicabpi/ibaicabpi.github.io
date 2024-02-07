@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
+  
 }
+/*
+Este dos css son del fondo de la pagina(el primero) y el titulo(el segundo)
+*/
 
 body {
   margin: 0;
@@ -17,7 +21,9 @@ h1 {
   background-color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+ /*
+    Estos cuatro css de aqui pertencen al encabezado
+    */
 ul {
   list-style-type: none;
   margin: 0px;
@@ -45,6 +51,9 @@ li a {
 li a:hover {
   background-color: red;
 }
+/*
+Por ultimo los css restantes pertencen al imagenes y texto 
+*/
 
 div {
   margin-left: 25%;
@@ -57,11 +66,6 @@ div {
   border: 10px;
   border-color: white;
 }
-
-div.Parrafo1 {
-  padding: 15px;
-}
-
 .imagen1 {
   position: relative;
   right: 1330px;
@@ -75,7 +79,7 @@ div.Parrafo1 {
 .imagen2 {
   position: relative;
   right: 1300px;
-  left: -728px;
+  left: -800px;
   top: 0px;
   margin: 5px;
   float: right;
@@ -87,9 +91,9 @@ div.Parrafo1 {
   height: 120px;
   position: relative;
   border: 3px solid black;
-  padding: 50px;
+  padding: 15px;
   color: black;
-  left: 15px;
+  left: -50px;
   background-color: white;
 }
 

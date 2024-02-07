@@ -1,75 +1,109 @@
-body{
-        margin:  0;
-        background-image: url(Images/Fondo.png);
-        background-repeat: no-repeat;
-        background-position: 0px -80px;
-        background-size: 2000px 1200px;
-        
-    }
-    h1 { 
-        margin: auto;
-        text-align: center;
-        background-color: white;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-    }
-    
-    ul{
-        list-style-type: none;
-        margin: 0px;
-        padding: 0px;
-        overflow: hidden;
-        background-color: black;
-    
-     }
-    li{
-        float:left;
-    
-                }
-    li a{
-        font-size: large;
-        display: block;
-        padding: 10px 13px;
-        width: 100px;
-        text-align: center;
-        color: white;
-        text-decoration: none;
-        text-shadow: 2px 2px 5px red;
-    }
-    li a:hover{
-        background-color: red;
-    }
-    input{
-        position: relative;
-        top: 40px;
-        left: 140px;
-        right: 120px;
-        display:table;
-    }
-    label{
-        display: inline-block;
-        padding: 12px 12px 12px 0;
-        position: relative;
-        top: 70px;
-        left: 40px;
-        font-size: large;
-        text-shadow: 2px 2px 5px white;
-    }
-    select{
-        display: inline-block;
-        position: relative;
-        top: 60px;
-        left: 10px;
-    }
-    p.texto1{
-        border: 3px solid black;
-        color: black;
-        width: 600px;
-        position: relative;
-        font-size: large;
-        padding: 10px;
-        left: 650px;
-        top: -100px;
-        background-color: white;
-    }
+/*
+Este dos css son del fondo de la pagina(el primero) y el titulo(el segundo)
+*/
+body {
+    margin: 0;
+    background-image: url(Images/Fondo.png);
+    background-repeat: no-repeat;
+    background-position: 0px -80px;
+    background-size: 2000px 1200px
+}
 
+h1 {
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/*
+    Estos cuatro css de aqui pertencen al encabezado
+    */
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    font-size: large;
+    display: block;
+    padding: 10px 13px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px red;
+}
+
+li a:hover {
+    background-color: red;
+}
+
+/*
+    Estos css de aqui son los del formulario de texto de la parte izquierda 
+    */
+input {
+    position: relative;
+    top: 40px;
+    left: 140px;
+    right: 120px;
+    display: table;
+}
+
+label {
+    display: inline-block;
+    padding: 12px 12px 12px 0;
+    position: relative;
+    top: 70px;
+    left: 40px;
+    font-size: large;
+    text-shadow: 2px 2px 5px white;
+}
+
+/*
+    Esto de aqui es el css del texto de información de esta pagina, 
+    el texto principal
+    */
+p.texto1 {
+    border: 3px solid black;
+    color: black;
+    width: 600px;
+    position: relative;
+    font-size: large;
+    padding: 10px;
+    left: 50px;
+    top: -460px;
+    background-color: white;
+}
+
+/*
+    Estos div de aqui son los de las checkbox
+    El primero es el de su ubicación
+    Y el segundo es el del texto de la parte superior
+    */
+div.cajitas {
+    position: relative;
+    left: 800px;
+    top: -370px;
+}
+
+div.cajitas p {
+    color: black;
+    border: 3px solid black;
+    background-color: white;
+    text-align: center;
+    width: 450px;
+    height: 30px;
+
+
+
+}
