@@ -25,12 +25,14 @@ ul {
     float: left;
   }
 li a{
+  font-size: large;
     display: block;
     padding: 10px 13px;
     width: 100px;
     text-align: center;
     color: white;
     text-decoration: none;
+    text-shadow: 2px 2px 5px red;
 }
   li a:hover{
     background-color: red;
@@ -65,7 +67,6 @@ div {
  top: 0px;
  margin: 5px;
  float: right;
- 
 }
 
 

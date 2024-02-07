@@ -27,21 +27,24 @@ body{
     
                 }
     li a{
+        font-size: large;
         display: block;
         padding: 10px 13px;
-        width: 598px;
+        width: 100px;
         text-align: center;
         color: white;
         text-decoration: none;
+        text-shadow: 2px 2px 5px red;
     }
     li a:hover{
         background-color: red;
     }
     input{
         position: relative;
-        top: 70px;
+        top: 40px;
         left: 140px;
         right: 120px;
+        display:table;
     }
     label{
         display: inline-block;
@@ -50,18 +53,20 @@ body{
         top: 70px;
         left: 40px;
         font-size: large;
-        text-shadow: 2px 2px 5px red;
+        text-shadow: 2px 2px 5px white;
     }
     select{
+        display: inline-block;
         position: relative;
-        top: 70px;
-        left: 120px;
+        top: 60px;
+        left: 10px;
     }
     p.texto1{
         border: 3px solid black;
         color: black;
         width: 600px;
         position: relative;
+        font-size: large;
         padding: 10px;
         left: 650px;
         top: -100px;

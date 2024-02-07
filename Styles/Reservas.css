@@ -29,37 +29,44 @@ li{
 
             }
 li a{
+    font-size: large;
     display: block;
     padding: 10px 13px;
     width: 100px;
     text-align: center;
     color: white;
     text-decoration: none;
+    text-shadow: 2px 2px 5px red;
 }
 li a:hover{
     background-color: red;
 }
 input{
     position: relative;
-    top: 70px;
-    left: 140px;
+    top: 50px;
+    left: 150px;
+    display: table;
 }
 label{
     position: relative;
+    padding: 12px 12px 12px 0;
+    font-size: large;
     top: 70px;
     left: 40px;
+    text-shadow: 2px 2px 5px white;
 }
 select{
     position: relative;
     top: 70px;
-    left: 120px;
+    left: 70px;
 }
+
 p.texto1{
     border: 3px solid black;
     color: black;
 }
 .texto1{
-    border: 3px solid white;
+    border: 3px solid black;
     color: black;
     width: 600px;
     position: relative;
