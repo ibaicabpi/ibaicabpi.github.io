@@ -29,7 +29,7 @@ body{
     li a{
         display: block;
         padding: 10px 13px;
-        width: 598px;
+        width: 100px;
         text-align: center;
         color: white;
         text-decoration: none;
@@ -50,7 +50,7 @@ body{
         top: 70px;
         left: 40px;
         font-size: large;
-        text-shadow: 2px 2px 5px red;
+        text-shadow: 2px 2px 5px white;
     }
     select{
         position: relative;
